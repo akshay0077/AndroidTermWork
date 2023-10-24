@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Dummy heading at the top -->
+    <TextView
+        android:id="@+id/dummy_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="New Digital Generation"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <!-- Container for the four images with interactive elements -->
+    <GridLayout
+        android:id="@+id/image_grid"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/dummy_heading"
+        android:layout_marginTop="106dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_centerHorizontal="true">
+
+        <!-- First image with interactive elements -->
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/AadharCard"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/ad"
+                android:clickable="true"
+                 />
+
+            <TextView
+                android:id="@+id/digitTv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AADHAAR CARD"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <!-- Second image with interactive elements -->
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/PanCard"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/pan"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:id="@+id/digitTv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PAN CARD"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+        <!-- Third image with interactive elements -->
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/DrivingLicence"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/driving"
+                android:clickable="true"
+                />
+
+            <TextView
+                android:id="@+id/digitTv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DRIVING LICENCES"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+
+        <!-- Fourth image with interactive elements -->
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+
+            <ImageView
+                android:id="@+id/StudentId"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/student"
+                android:clickable="true"
+                 />
+
+            <TextView
+                android:id="@+id/digitTv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="STUDENT ID CARD"
+                android:textSize="18sp"
+                android:layout_gravity="center" />
+        </LinearLayout>
+
+    </GridLayout>
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddharDataDisplay">
+
+    <TextView
+        android:id="@+id/textViewAadharNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Aadhar number: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAadharNumber"
+        android:layout_marginTop="10dp"
+        android:text="Full Name: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewBirthdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_marginTop="10dp"
+        android:text="Birthdate: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewBirthdate"
+        android:layout_marginTop="10dp"
+        android:text="Gender: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewGender"
+        android:layout_marginTop="10dp"
+        android:text="Address: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewTown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewAddress"
+        android:layout_marginTop="10dp"
+        android:text="Town: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewTaluka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTown"
+        android:layout_marginTop="10dp"
+        android:text="Taluka: "
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewDistrict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewTaluka"
+        android:layout_marginTop="10dp"
+        android:text="District: "
+        android:textSize="16sp"/>
+</RelativeLayout>
