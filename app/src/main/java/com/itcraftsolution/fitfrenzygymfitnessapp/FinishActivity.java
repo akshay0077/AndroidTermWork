@@ -8,7 +8,7 @@ import com.airbnb.lottie.LottieAnimationView;
 
 public class FinishActivity extends AppCompatActivity {
 
-    private static final int DELAY_TIME = 5000; // 5 seconds in milliseconds
+    private static final int DELAY_TIME = 3000; // 5 seconds in milliseconds
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
